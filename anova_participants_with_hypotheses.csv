@@ -1,0 +1,10 @@
+feature,H0_statement,H1_statement,F_stat,p,decision
+mean,Null: All group means of 'mean' across participants (top 10) are equal.,Alternative: At least one group's mean of 'mean' across participants (top 10) differs.,0.26583471214450116,0.9836272663350714,Fail to reject H0
+std,Null: All group means of 'std' across participants (top 10) are equal.,Alternative: At least one group's mean of 'std' across participants (top 10) differs.,340.87941318649877,0.0,Reject H0
+min,Null: All group means of 'min' across participants (top 10) are equal.,Alternative: At least one group's mean of 'min' across participants (top 10) differs.,103.06898462963453,2.969448459566428e-188,Reject H0
+max,Null: All group means of 'max' across participants (top 10) are equal.,Alternative: At least one group's mean of 'max' across participants (top 10) differs.,96.5355093867675,2.864543116881594e-176,Reject H0
+bp_delta,Null: All group means of 'bp_delta' across participants (top 10) are equal.,Alternative: At least one group's mean of 'bp_delta' across participants (top 10) differs.,1025.4752367299081,0.0,Reject H0
+bp_theta,Null: All group means of 'bp_theta' across participants (top 10) are equal.,Alternative: At least one group's mean of 'bp_theta' across participants (top 10) differs.,693.2858419958761,0.0,Reject H0
+bp_alpha,Null: All group means of 'bp_alpha' across participants (top 10) are equal.,Alternative: At least one group's mean of 'bp_alpha' across participants (top 10) differs.,496.16670381450285,0.0,Reject H0
+bp_beta,Null: All group means of 'bp_beta' across participants (top 10) are equal.,Alternative: At least one group's mean of 'bp_beta' across participants (top 10) differs.,490.6643373412285,0.0,Reject H0
+interestingness,Null: All group means of 'interestingness' across participants (top 10) are equal.,Alternative: At least one group's mean of 'interestingness' across participants (top 10) differs.,392.25863770095214,0.0,Reject H0

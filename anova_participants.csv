@@ -1,0 +1,10 @@
+feature,H0,H1,F,p,decision
+mean,All participant means equal,At least one differs,0.26583471214450116,0.9836272663350714,Fail to reject H0
+std,All participant means equal,At least one differs,340.87941318649877,0.0,Reject H0
+min,All participant means equal,At least one differs,103.06898462963453,2.969448459566428e-188,Reject H0
+max,All participant means equal,At least one differs,96.5355093867675,2.864543116881594e-176,Reject H0
+bp_delta,All participant means equal,At least one differs,1025.4752367299081,0.0,Reject H0
+bp_theta,All participant means equal,At least one differs,693.2858419958761,0.0,Reject H0
+bp_alpha,All participant means equal,At least one differs,496.16670381450285,0.0,Reject H0
+bp_beta,All participant means equal,At least one differs,490.6643373412285,0.0,Reject H0
+interestingness,All participant means equal,At least one differs,392.25863770095214,0.0,Reject H0

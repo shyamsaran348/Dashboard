@@ -1,0 +1,10 @@
+feature,H0,H1,U,p,decision,FDR_reject
+mean,Distributions(0) = Distributions(1),Distributions differ,57911465.0,0.5823535661430799,Fail to reject H0,False
+std,Distributions(0) = Distributions(1),Distributions differ,58328478.0,0.15219056118664137,Fail to reject H0,False
+min,Distributions(0) = Distributions(1),Distributions differ,57507690.0,0.7611743925433678,Fail to reject H0,False
+max,Distributions(0) = Distributions(1),Distributions differ,58216226.0,0.23230216532058845,Fail to reject H0,False
+bp_delta,Distributions(0) = Distributions(1),Distributions differ,58375503.0,0.12569927826844654,Fail to reject H0,False
+bp_theta,Distributions(0) = Distributions(1),Distributions differ,58389490.0,0.11855606864634069,Fail to reject H0,False
+bp_alpha,Distributions(0) = Distributions(1),Distributions differ,58333482.0,0.14918420432743612,Fail to reject H0,False
+bp_beta,Distributions(0) = Distributions(1),Distributions differ,58335743.0,0.14784077534861012,Fail to reject H0,False
+interestingness,Distributions(0) = Distributions(1),Distributions differ,56983022.5,0.15231044666226295,Fail to reject H0,False

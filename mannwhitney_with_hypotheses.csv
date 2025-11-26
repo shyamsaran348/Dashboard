@@ -1,0 +1,10 @@
+feature,H0_statement,H1_statement,U_stat,p,decision,FDR_reject
+mean,Null: The distribution of 'mean' is the same for label_enc=0 and label_enc=1.,Alternative: The distribution of 'mean' differs between label_enc=0 and label_enc=1.,57911465.0,0.5823535661430799,Fail to reject H0,False
+std,Null: The distribution of 'std' is the same for label_enc=0 and label_enc=1.,Alternative: The distribution of 'std' differs between label_enc=0 and label_enc=1.,58328478.0,0.15219056118664137,Fail to reject H0,False
+min,Null: The distribution of 'min' is the same for label_enc=0 and label_enc=1.,Alternative: The distribution of 'min' differs between label_enc=0 and label_enc=1.,57507690.0,0.7611743925433678,Fail to reject H0,False
+max,Null: The distribution of 'max' is the same for label_enc=0 and label_enc=1.,Alternative: The distribution of 'max' differs between label_enc=0 and label_enc=1.,58216226.0,0.23230216532058845,Fail to reject H0,False
+bp_delta,Null: The distribution of 'bp_delta' is the same for label_enc=0 and label_enc=1.,Alternative: The distribution of 'bp_delta' differs between label_enc=0 and label_enc=1.,58375503.0,0.12569927826844654,Fail to reject H0,False
+bp_theta,Null: The distribution of 'bp_theta' is the same for label_enc=0 and label_enc=1.,Alternative: The distribution of 'bp_theta' differs between label_enc=0 and label_enc=1.,58389490.0,0.11855606864634069,Fail to reject H0,False
+bp_alpha,Null: The distribution of 'bp_alpha' is the same for label_enc=0 and label_enc=1.,Alternative: The distribution of 'bp_alpha' differs between label_enc=0 and label_enc=1.,58333482.0,0.14918420432743612,Fail to reject H0,False
+bp_beta,Null: The distribution of 'bp_beta' is the same for label_enc=0 and label_enc=1.,Alternative: The distribution of 'bp_beta' differs between label_enc=0 and label_enc=1.,58335743.0,0.14784077534861012,Fail to reject H0,False
+interestingness,Null: The distribution of 'interestingness' is the same for label_enc=0 and label_enc=1.,Alternative: The distribution of 'interestingness' differs between label_enc=0 and label_enc=1.,56983022.5,0.15231044666226295,Fail to reject H0,False

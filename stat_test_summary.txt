@@ -1,0 +1,257 @@
+Statistical Test Summary for EEG Dataset
+=======================================
+
+Run on file: features_table.csv
+
+Significance level (alpha): 0.05
+
+This suite runs the following tests and records the full hypothesis statements with results.
+
+T-TEST (Welch's independent t-test):
+  - H0: equal means between the two label groups (label_enc=0 vs label_enc=1).
+  - H1: means differ.
+
+Mann-Whitney U (non-parametric):
+  - H0: distributions identical between the two label groups.
+  - H1: distributions differ.
+
+ANOVA (one-way):
+  - H0: all group means are equal across the grouping variable (participants or topics).
+  - H1: at least one group mean differs.
+
+Pearson correlation / Point-biserial:
+  - H0: correlation = 0 (no linear association).
+  - H1: correlation != 0.
+
+Logistic regression (multivariate):
+  - H0: all coefficients (except intercept) are zero (no predictive relationship).
+  - H1: at least one coefficient != 0.
+
+
+--- T-TESTS ---
+mean:
+  H0: Null: The mean of 'mean' is equal for label_enc=0 and label_enc=1 (Mean_mean|0 = Mean_mean|1).
+  H1: Alternative: The mean of 'mean' differs between label_enc=0 and label_enc=1.
+  p-value: 0.7399908589551194
+  Decision: Fail to reject H0
+
+std:
+  H0: Null: The mean of 'std' is equal for label_enc=0 and label_enc=1 (Mean_std|0 = Mean_std|1).
+  H1: Alternative: The mean of 'std' differs between label_enc=0 and label_enc=1.
+  p-value: 0.28068853763998386
+  Decision: Fail to reject H0
+
+min:
+  H0: Null: The mean of 'min' is equal for label_enc=0 and label_enc=1 (Mean_min|0 = Mean_min|1).
+  H1: Alternative: The mean of 'min' differs between label_enc=0 and label_enc=1.
+  p-value: 0.8354189267032011
+  Decision: Fail to reject H0
+
+max:
+  H0: Null: The mean of 'max' is equal for label_enc=0 and label_enc=1 (Mean_max|0 = Mean_max|1).
+  H1: Alternative: The mean of 'max' differs between label_enc=0 and label_enc=1.
+  p-value: 0.42648156647642166
+  Decision: Fail to reject H0
+
+bp_delta:
+  H0: Null: The mean of 'bp_delta' is equal for label_enc=0 and label_enc=1 (Mean_bp_delta|0 = Mean_bp_delta|1).
+  H1: Alternative: The mean of 'bp_delta' differs between label_enc=0 and label_enc=1.
+  p-value: 0.45078371214318613
+  Decision: Fail to reject H0
+
+bp_theta:
+  H0: Null: The mean of 'bp_theta' is equal for label_enc=0 and label_enc=1 (Mean_bp_theta|0 = Mean_bp_theta|1).
+  H1: Alternative: The mean of 'bp_theta' differs between label_enc=0 and label_enc=1.
+  p-value: 0.3459042226446092
+  Decision: Fail to reject H0
+
+bp_alpha:
+  H0: Null: The mean of 'bp_alpha' is equal for label_enc=0 and label_enc=1 (Mean_bp_alpha|0 = Mean_bp_alpha|1).
+  H1: Alternative: The mean of 'bp_alpha' differs between label_enc=0 and label_enc=1.
+  p-value: 0.41143012069562546
+  Decision: Fail to reject H0
+
+bp_beta:
+  H0: Null: The mean of 'bp_beta' is equal for label_enc=0 and label_enc=1 (Mean_bp_beta|0 = Mean_bp_beta|1).
+  H1: Alternative: The mean of 'bp_beta' differs between label_enc=0 and label_enc=1.
+  p-value: 0.40830404003720855
+  Decision: Fail to reject H0
+
+interestingness:
+  H0: Null: The mean of 'interestingness' is equal for label_enc=0 and label_enc=1 (Mean_interestingness|0 = Mean_interestingness|1).
+  H1: Alternative: The mean of 'interestingness' differs between label_enc=0 and label_enc=1.
+  p-value: 0.12905531887231506
+  Decision: Fail to reject H0
+
+
+--- MANN-WHITNEY ---
+mean:
+  H0: Null: The distribution of 'mean' is the same for label_enc=0 and label_enc=1.
+  H1: Alternative: The distribution of 'mean' differs between label_enc=0 and label_enc=1.
+  p-value: 0.5823535661430799
+  Decision: Fail to reject H0
+
+std:
+  H0: Null: The distribution of 'std' is the same for label_enc=0 and label_enc=1.
+  H1: Alternative: The distribution of 'std' differs between label_enc=0 and label_enc=1.
+  p-value: 0.15219056118664137
+  Decision: Fail to reject H0
+
+min:
+  H0: Null: The distribution of 'min' is the same for label_enc=0 and label_enc=1.
+  H1: Alternative: The distribution of 'min' differs between label_enc=0 and label_enc=1.
+  p-value: 0.7611743925433678
+  Decision: Fail to reject H0
+
+max:
+  H0: Null: The distribution of 'max' is the same for label_enc=0 and label_enc=1.
+  H1: Alternative: The distribution of 'max' differs between label_enc=0 and label_enc=1.
+  p-value: 0.23230216532058845
+  Decision: Fail to reject H0
+
+bp_delta:
+  H0: Null: The distribution of 'bp_delta' is the same for label_enc=0 and label_enc=1.
+  H1: Alternative: The distribution of 'bp_delta' differs between label_enc=0 and label_enc=1.
+  p-value: 0.12569927826844654
+  Decision: Fail to reject H0
+
+bp_theta:
+  H0: Null: The distribution of 'bp_theta' is the same for label_enc=0 and label_enc=1.
+  H1: Alternative: The distribution of 'bp_theta' differs between label_enc=0 and label_enc=1.
+  p-value: 0.11855606864634069
+  Decision: Fail to reject H0
+
+bp_alpha:
+  H0: Null: The distribution of 'bp_alpha' is the same for label_enc=0 and label_enc=1.
+  H1: Alternative: The distribution of 'bp_alpha' differs between label_enc=0 and label_enc=1.
+  p-value: 0.14918420432743612
+  Decision: Fail to reject H0
+
+bp_beta:
+  H0: Null: The distribution of 'bp_beta' is the same for label_enc=0 and label_enc=1.
+  H1: Alternative: The distribution of 'bp_beta' differs between label_enc=0 and label_enc=1.
+  p-value: 0.14784077534861012
+  Decision: Fail to reject H0
+
+interestingness:
+  H0: Null: The distribution of 'interestingness' is the same for label_enc=0 and label_enc=1.
+  H1: Alternative: The distribution of 'interestingness' differs between label_enc=0 and label_enc=1.
+  p-value: 0.15231044666226295
+  Decision: Fail to reject H0
+
+
+--- ANOVA – PARTICIPANTS ---
+mean:
+  H0: Null: All group means of 'mean' across participants (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'mean' across participants (top 10) differs.
+  p-value: 0.9836272663350714
+  Decision: Fail to reject H0
+
+std:
+  H0: Null: All group means of 'std' across participants (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'std' across participants (top 10) differs.
+  p-value: 0.0
+  Decision: Reject H0
+
+min:
+  H0: Null: All group means of 'min' across participants (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'min' across participants (top 10) differs.
+  p-value: 2.969448459566428e-188
+  Decision: Reject H0
+
+max:
+  H0: Null: All group means of 'max' across participants (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'max' across participants (top 10) differs.
+  p-value: 2.864543116881594e-176
+  Decision: Reject H0
+
+bp_delta:
+  H0: Null: All group means of 'bp_delta' across participants (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'bp_delta' across participants (top 10) differs.
+  p-value: 0.0
+  Decision: Reject H0
+
+bp_theta:
+  H0: Null: All group means of 'bp_theta' across participants (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'bp_theta' across participants (top 10) differs.
+  p-value: 0.0
+  Decision: Reject H0
+
+bp_alpha:
+  H0: Null: All group means of 'bp_alpha' across participants (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'bp_alpha' across participants (top 10) differs.
+  p-value: 0.0
+  Decision: Reject H0
+
+bp_beta:
+  H0: Null: All group means of 'bp_beta' across participants (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'bp_beta' across participants (top 10) differs.
+  p-value: 0.0
+  Decision: Reject H0
+
+interestingness:
+  H0: Null: All group means of 'interestingness' across participants (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'interestingness' across participants (top 10) differs.
+  p-value: 0.0
+  Decision: Reject H0
+
+
+--- ANOVA – TOPICS ---
+mean:
+  H0: Null: All group means of 'mean' across topics (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'mean' across topics (top 10) differs.
+  p-value: 0.9033800379295676
+  Decision: Fail to reject H0
+
+std:
+  H0: Null: All group means of 'std' across topics (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'std' across topics (top 10) differs.
+  p-value: 1.051227299017944e-65
+  Decision: Reject H0
+
+min:
+  H0: Null: All group means of 'min' across topics (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'min' across topics (top 10) differs.
+  p-value: 1.9093326254563618e-18
+  Decision: Reject H0
+
+max:
+  H0: Null: All group means of 'max' across topics (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'max' across topics (top 10) differs.
+  p-value: 2.4027784408437122e-18
+  Decision: Reject H0
+
+bp_delta:
+  H0: Null: All group means of 'bp_delta' across topics (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'bp_delta' across topics (top 10) differs.
+  p-value: 1.0475066248131015e-96
+  Decision: Reject H0
+
+bp_theta:
+  H0: Null: All group means of 'bp_theta' across topics (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'bp_theta' across topics (top 10) differs.
+  p-value: 5.775217363348731e-74
+  Decision: Reject H0
+
+bp_alpha:
+  H0: Null: All group means of 'bp_alpha' across topics (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'bp_alpha' across topics (top 10) differs.
+  p-value: 4.2151720442383876e-60
+  Decision: Reject H0
+
+bp_beta:
+  H0: Null: All group means of 'bp_beta' across topics (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'bp_beta' across topics (top 10) differs.
+  p-value: 1.3823326037778143e-59
+  Decision: Reject H0
+
+interestingness:
+  H0: Null: All group means of 'interestingness' across topics (top 10) are equal.
+  H1: Alternative: At least one group's mean of 'interestingness' across topics (top 10) differs.
+  p-value: 5e-324
+  Decision: Reject H0
+
+
+Notes:
+- Results with NaN p-values indicate the test couldn't be computed (e.g., insufficient data or constant series).
+- FDR flags present in the CSV for t-tests and Mann-Whitney indicate BH-FDR adjusted rejections.

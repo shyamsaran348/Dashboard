@@ -1,0 +1,10 @@
+feature,H0,H1,F,p,decision
+mean,All topic means equal,At least one differs,0.4576462273501978,0.9033800379295676,Fail to reject H0
+std,All topic means equal,At least one differs,37.26077150833399,1.051227299017944e-65,Reject H0
+min,All topic means equal,At least one differs,11.668658108788007,1.9093326254563618e-18,Reject H0
+max,All topic means equal,At least one differs,11.613439591826774,2.4027784408437122e-18,Reject H0
+bp_delta,All topic means equal,At least one differs,54.044165753124055,1.0475066248131015e-96,Reject H0
+bp_theta,All topic means equal,At least one differs,41.720616436191044,5.775217363348731e-74,Reject H0
+bp_alpha,All topic means equal,At least one differs,34.23881815412694,4.2151720442383876e-60,Reject H0
+bp_beta,All topic means equal,At least one differs,33.96072823996185,1.3823326037778143e-59,Reject H0
+interestingness,All topic means equal,At least one differs,183.16648994222228,5e-324,Reject H0

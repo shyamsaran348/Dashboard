@@ -1,0 +1,10 @@
+feature,H0,H1,t,p,decision,FDR_reject
+mean,Mean(feature|0) = Mean(feature|1),Means differ,0.3318722462280993,0.7399908589551194,Fail to reject H0,False
+std,Mean(feature|0) = Mean(feature|1),Means differ,1.0788163773523283,0.28068853763998386,Fail to reject H0,False
+min,Mean(feature|0) = Mean(feature|1),Means differ,-0.20776070316381418,0.8354189267032011,Fail to reject H0,False
+max,Mean(feature|0) = Mean(feature|1),Means differ,0.7952506597898805,0.42648156647642166,Fail to reject H0,False
+bp_delta,Mean(feature|0) = Mean(feature|1),Means differ,0.7541307361308783,0.45078371214318613,Fail to reject H0,False
+bp_theta,Mean(feature|0) = Mean(feature|1),Means differ,0.942595217244586,0.3459042226446092,Fail to reject H0,False
+bp_alpha,Mean(feature|0) = Mean(feature|1),Means differ,0.8214039466730456,0.41143012069562546,Fail to reject H0,False
+bp_beta,Mean(feature|0) = Mean(feature|1),Means differ,0.8269065368779467,0.40830404003720855,Fail to reject H0,False
+interestingness,Mean(feature|0) = Mean(feature|1),Means differ,-1.5179276182215122,0.12905531887231506,Fail to reject H0,False
